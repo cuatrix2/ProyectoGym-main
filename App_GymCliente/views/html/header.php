@@ -13,7 +13,7 @@
                     <a href="../Dashboard/home.php" class="nav-item nav-link active">Menu</a>
                     <a href="../Dashboard/about.php" class="nav-item nav-link">Nosotros</a>
                     <a href="../Dashboard/blog.php" class="nav-item nav-link">Articulos</a>
-                    <a href="../Dashboard/feature.php" class="nav-item nav-link">Caracteristicas</a>
+                    <a href="../Dashboard/feature.php" class="nav-item nav-link">Info de Membresias</a>
                   
                     <div class="nav-item dropdown">
                         

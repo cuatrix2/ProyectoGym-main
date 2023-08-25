@@ -254,11 +254,6 @@
     <!-- BMI Calculation End -->
 
 
-    
-
-
-
-
     <!-- Blog Start -->
     <div class="container pt-5">
         <div class="d-flex flex-column text-center mb-5">

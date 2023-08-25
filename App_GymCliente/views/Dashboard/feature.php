@@ -12,11 +12,11 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header mb-5">
         <div class="d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5" style="min-height: 400px">
-            <h4 class="display-4 mb-3 mt-0 mt-lg-5 text-white text-uppercase font-weight-bold">Características</h4>
+            <h4 class="display-4 mb-3 mt-0 mt-lg-5 text-white text-uppercase font-weight-bold">Info de Membresias</h4>
             <div class="d-inline-flex">
                 <p class="m-0 text-white"><a class="text-white" href="./home.php">Inicio</a></p>
                 <p class="m-0 text-white px-2">/</p>
-                <p class="m-0 text-white">Características</p>
+                <p class="m-0 text-white">Info de Membresias</p>
             </div>
         </div>
     </div>
@@ -26,58 +26,54 @@
      <!-- GYM Feature Start -->
      <div class="container feature pt-5">
         <div class="d-flex flex-column text-center mb-5">
-            <h4 class="text-primary font-weight-bold">Porqué escogernos?</h4>
-            <h4 class="display-4 font-weight-bold">Beneficios del GYM</h4>
+            <h4 class="text-primary font-weight-bold">Membresias ENERGY GYM</h4>
+            <h4 class="display-4 font-weight-bold">Combos</h4>
         </div>
         <div class="row">
             <div class="col-md-6 mb-5">
                 <div class="row align-items-center">
                     <div class="col-sm-5">
-                        <img class="img-fluid mb-3 mb-sm-0" src="../../public/img/feature-1.jpg" alt="Image">
+                        <img class="img-fluid mb-3 mb-sm-0" src="https://previews.123rf.com/images/nexusby/nexusby1608/nexusby160800382/61636427-centro-de-fitness-dise%C3%B1o-de-la-tarjeta-gimnasio-azul-sobre-fondo-blanco.jpg" alt="Image">
                         <i class="flaticon-barbell"></i>
                     </div>
                     <div class="col-sm-7">
-                        <h4 class="font-weight-bold">Instructores </h4>
-                        <p class="text-justify"> Instructores preparados para todas las rutinas de ejercicio</p>
+                        <h4 class="font-weight-bold">Mensual </h4>
+                        <p class="text-justify"> Membresia de tipo Mensual de 30 días habiles
+                        </p>
+                        <l class="text-justify">   Precio 20 dolares. </l>
+                        <h5 class="text-justify"><small>*Pagos por transferencia</small></h5>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 mb-5">
                 <div class="row align-items-center">
                     <div class="col-sm-5">
-                        <img class="img-fluid mb-3 mb-sm-0" src="../../public/img/feature-2.jpg" alt="Image">
-                        <i class="flaticon-support"></i>
-                    </div>
-                    <div class="col-sm-7">
-                        <h4 class="font-weight-bold">Sitio Amplio</h4>
-                        <p class="text-justify">El gimnasio cuenta con la ventaja de estar ubicado en un sitio amplio y espacioso, lo que brinda a nuestros miembros un entorno excepcional para sus actividades físicas. </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 mb-5">
-                <div class="row align-items-center">
-                    <div class="col-sm-5">
-                        <img class="img-fluid mb-3 mb-sm-0" src="../../public/img/feature-3.jpg" alt="Image">
-                        <i class="flaticon-support"></i>
-                    </div>
-                    <div class="col-sm-7">
-                        <h4 class="font-weight-bold">Espacios de boxing</h4>
-                        <p class="text-justify">Nuestro gimnasio ofrece instalaciones de primer nivel con espacios dedicados exclusivamente al boxeo. Estos espacios de boxeo están diseñados para brindar a nuestros miembros un ambiente auténtico y funcional para sus entrenamientos de boxeo y artes marciales.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 mb-5">
-                <div class="row align-items-center">
-                    <div class="col-sm-5">
-                        <img class="img-fluid mb-3 mb-sm-0" src="../../public/img/feature-4.jpg" alt="Image">
+                        <img class="img-fluid mb-3 mb-sm-0" src="https://previews.123rf.com/images/nexusby/nexusby1608/nexusby160800382/61636427-centro-de-fitness-dise%C3%B1o-de-la-tarjeta-gimnasio-azul-sobre-fondo-blanco.jpg" alt="Image">
                         <i class="flaticon-barbell"></i>
                     </div>
                     <div class="col-sm-7">
-                        <h4 class="font-weight-bold">Maquinas Nuevas</h4>
-                        <p class="text-justify">En nuestro gimnasio, nos enorgullece presentar una colección de máquinas de última generación. Hemos invertido en equipos de fitness de vanguardia para ofrecer a nuestros miembros una experiencia de entrenamiento excepcional.</p>
+                        <h4 class="font-weight-bold">Semestral</h4>
+                        <p class="text-justify"> Membresia de tipo Mensual de 182 días habiles </p>
+                        <l class="text-justify">   Precio 120 dolares. </l>
+                        <h5 class="text-justify"><small>*Pagos por transferencia</small></h5>
                     </div>
                 </div>
             </div>
+            <div class="col-md-6 mb-5">
+                <div class="row align-items-center">
+                    <div class="col-sm-5">
+                        <img class="img-fluid mb-3 mb-sm-0" src="https://previews.123rf.com/images/nexusby/nexusby1608/nexusby160800382/61636427-centro-de-fitness-dise%C3%B1o-de-la-tarjeta-gimnasio-azul-sobre-fondo-blanco.jpg" alt="Image">
+                        <i class="flaticon-barbell"></i>
+                    </div>
+                    <div class="col-sm-7">
+                        <h4 class="font-weight-bold">Anual</h4>
+                        <p class="text-justify">Membresia de tipo Mensual de 364 días habiles</p>
+                        <l class="text-justify">   Precio 240 dolares. </l>
+                        <h5 class="text-justify"><small>*Pagos por transferencia</small></h5>
+                    </div>
+                </div>
+            </div>
+            
         </div>
     </div>
     <!-- GYM Feature End -->
