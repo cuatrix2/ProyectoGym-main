@@ -2,18 +2,63 @@
 <html lang="en">
 
 <head>
-    <?php require_once('../html/head.php')  ?>
+    <meta charset="utf-8">
+    <title>Gymnast - Gym Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free Website Template" name="keywords">
+    <meta content="Free Website Template" name="description">
+
+    <!-- Favicon -->
+    <link href="../../../public/img/favicon.ico" rel="icon">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Flaticon Font -->
+    <link href="../../../public/lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="../../../public/css/style.min.css" rel="stylesheet">
+    <style>
+        .center-text {
+            text-align: center;
+            color: white;
+        }
+    </style>
 </head>
 
 <body class="bg-white">
-    <?php include_once('../html/header.php')  ?>
+    <!-- Navbar Start -->
+<div class="container-fluid p-0 nav-bar">
+    <nav class="navbar navbar-expand-lg bg-none navbar-dark py-3">
+        <a href="" class="navbar-brand">
+            <h1 class="m-0 display-4 font-weight-bold text-uppercase text-white">Gymnast</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+            <div class="navbar-nav ml-auto p-4 bg-secondary">
+                <a href="../../../index.php" class="nav-item nav-link active">Menu</a>
+                <a href="about.php" class="nav-item nav-link">Nosotros</a>
+                <a href="feature.php" class="nav-item nav-link">Caracteristicas</a>
+                <a href="blog.php" class="nav-item nav-link">Articulos</a>
+                <a href="contact.php" class="nav-item nav-link">Contacto</a>
+                <a href="../../../views/sesion/login.php" class="nav-item nav-link">Inicio de sesion</a>
+            </div>
+
+        </div>
+    </nav>
+</div>
+<!-- Navbar End -->
+
 
     <!-- Page Header Start -->
     <div class="container-fluid page-header mb-5">
         <div class="d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5" style="min-height: 400px">
             <h4 class="display-4 mb-3 mt-0 mt-lg-5 text-white text-uppercase font-weight-bold">Nuestro Blog</h4>
             <div class="d-inline-flex">
-                <p class="m-0 text-white"><a class="text-white" href="">Inicio</a></p>
+                <p class="m-0 text-white"><a class="text-white" href="../../../index.php">Inicio</a></p>
                 <p class="m-0 text-white px-2">/</p>
                 <p class="m-0 text-white">Blogs</p>
             </div>
@@ -22,6 +67,7 @@
     <!-- Page Header End -->
 
 
+    
     <!-- Blog Start -->
     <div class="container pt-5">
         <div class="d-flex flex-column text-center mb-5">
@@ -109,35 +155,9 @@
                 <a class="btn btn-outline-primary mt-2 px-3" href="./blogs/blog_3.php"target="_blank">Mas Información <i class="fa fa-angle-right"></i></a>
             </div>
             <!-- Blog End -->
-            
-            <!-- Navegación-->
-           <!-- <div class="col-lg-12">
-                <nav aria-label="Page navigation">
-                    <ul class="pagination justify-content-center mb-4">
-                        <li class="page-item disabled">
-                            <a class="page-link" href="#" aria-label="Previous">
-                                <span aria-hidden="true">&laquo;</span>
-                            </a>
-                        </li>
-                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                        <li class="page-item"><a class="page-link" href="#">2</a></li>
-                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                        <li class="page-item">
-                            <a class="page-link" href="#" aria-label="Next">
-                                <span aria-hidden="true">&raquo;</span>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-            </div> -->
-
-        </div>
-    </div>
-    <!-- Blog End -->
-
 
     <!-- Footer Start -->
-    <?php include_once('../html/footer.php') ?>
+    <?php require_once('../../../views/html/footer.php')  ?>
     <!-- Footer End -->
 
 

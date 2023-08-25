@@ -41,9 +41,10 @@
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav ml-auto p-4 bg-secondary">
                     <a href="index.php" class="nav-item nav-link active">Menu</a>
-                    <a href="./views/Dashboard/about.php" class="nav-item nav-link">Nosotros</a>
-                    <a href="./views/Dashboard/feature.php" class="nav-item nav-link">Caracteristicas</a>
-                    <a href="./views/Dashboard/contact.php" class="nav-item nav-link">Contacto</a>
+                    <a href="./views/Dashboard/nosesion/about.php" class="nav-item nav-link">Nosotros</a>
+                    <a href="./views/Dashboard/nosesion/feature.php" class="nav-item nav-link">Caracteristicas</a>
+                    <a href="./views/Dashboard/nosesion/blog.php" class="nav-item nav-link">Articulos</a>
+                    <a href="./views/Dashboard/nosesion/contact.php" class="nav-item nav-link">Contacto</a>
                     <a href="./views/sesion/login.php" class="nav-item nav-link">Inicio de sesion</a>
                 </div>
 
