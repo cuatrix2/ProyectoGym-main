@@ -52,7 +52,7 @@ public function InsertarR($cedula, $Nombres, $Apellidos, $fechanacimiento, $gene
         return mysqli_error($con);
     }
 }
- /* public function Actualizar($idempleado,$Nombres, $Apellidos,$cedula, $telefono, $em_correo, $em_contrasena, $idRoles){
+  public function Actualizar($idempleado,$Nombres, $Apellidos,$cedula, $telefono, $em_correo, $em_contrasena, $idRoles){
         $con = new ClaseConexion();
         $con=$con->ProcedimientoConectar();
         $cadena = "UPDATE `empleado` SET `em_nombre`='$Nombres',`em_apellido`='$Apellidos',`em_cedula`='$cedula',`em_telefono`='$telefono',`em_correo`='$em_correo',`em_contrasena`='$em_contrasena',`rol_id`='$idRoles' WHERE em_id=$idempleado";
@@ -61,7 +61,7 @@ public function InsertarR($cedula, $Nombres, $Apellidos, $fechanacimiento, $gene
         }else{
             return mysqli_error($con);
         }
-    }*/
+    }
 
 
 }

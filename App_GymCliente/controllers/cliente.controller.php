@@ -69,5 +69,21 @@ switch ($_GET['op']) {
         $datos = array();
         $datos = $Cliente->InsertarR($cedula, $Nombres, $Apellidos, $fechanacimiento, $genero, $altura, $peso, $telefono, $direccion,$correo,$contrasena);
         echo json_encode($datos);
+
+        case 'actualizar':
+            $cedula = $_POST['cli_cedula'];
+            $Nombres = $_POST['cli_nombre'];
+            $Apellidos = $_POST['cli_apellido'];
+            $fechanacimiento = $_POST['cli_fecha_nacimiento'];
+            $genero = $_POST['cli_genero'];
+            $altura = $_POST['cli_altura'];
+            $peso = $_POST['cli_peso'];
+            $telefono = $_POST['cli_telefono'];
+            $direccion = $_POST['cli_direccion'];
+            $correo = $_POST['cli_email'];
+            $contrasena = $_POST['cli_contrasena'];
+            $datos = array();
+            $datos = $Cliente->Actualizar($cedula, $Nombres, $Apellidos, $fechanacimiento, $genero, $altura, $peso, $telefono, $direccion,$correo,$contrasena);
+            echo json_encode($datos);
         
 }

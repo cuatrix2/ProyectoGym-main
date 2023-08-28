@@ -81,7 +81,7 @@
                                         <hr>          
                                     </form>
                                     <div class="text-center">
-                                        <a class="small" href="./forgot-password.php">recuperar contraseña?</a>
+                                        <a class="small" href="./forgot-password.php">Recuperar contraseña?</a>
                                     </div>
                                     <div class="text-center">
                                         <a class="small" href="./register.php">Crear cuenta!</a>
